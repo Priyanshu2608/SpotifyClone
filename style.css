@@ -1,0 +1,263 @@
+body{
+    background-color: azure;
+    background-image: url('back.jpg');
+    overflow-x: hidden;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sidenav {
+    height: 90%; 
+    width: 300px; 
+    position:absolute; 
+    background-color: #111; 
+    overflow-x: hidden; 
+    top: 55px;
+  }
+
+  .like img{
+    position:sticky ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    
+  }
+  .ari img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 130px;
+    left: 20px;
+  }
+  .kar img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 190px;
+    left: 20px;
+  }
+  .adi img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 250px;
+    left: 20px;
+  }
+  .top img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 310px;
+    left: 20px;
+
+  }
+  .see img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 370px;
+    left: 20px;
+
+  }
+  .wee img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 430px;
+    left: 20px;
+    border-radius: 100px;
+  }
+  .dil img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 490px;
+    left: 20px;
+  }
+  .glo img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 550px;
+    left: 20px;
+  }
+  .bar img{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 610px;
+    left: 20px;
+  }
+  .sidenav a {
+    padding: 27px 8px 6px 76px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #ffffff;
+    display: block;
+    position:static;
+  }
+  
+  .sidenav a:hover {
+    color: #aba6a6;
+  }
+  
+  .main {
+    margin-left: 220px; 
+    padding: 0px;
+  }
+nav ul{
+    display: flex;
+    height: 55px;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    align-items: center;
+    position: sticky;
+}
+.Brand img{
+    width: 45px;
+    padding-right: 4px;
+    
+}
+.Brand{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 10px;
+}
+li{
+    padding-left: 25px;
+    padding-right: 10px;
+    font-weight: 300;
+    height: 16px;
+
+}
+.container{
+    min-height: 71vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 27px auto;
+    margin-left: 450px;
+    width: 60%;
+    border-radius: 15px;
+    background-color: rgb(61, 81, 116);
+    background-repeat: no-repeat;
+    background-size: 1160px 550px;
+}
+.thi{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 120px;
+    left: 480px;
+}
+.side{
+  height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 110px;
+    left: 1290px;
+}
+.container h1{
+    margin-left: 160px;
+    margin-bottom: 20px;
+    display: baseline;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size:45px;
+    padding-top: 10px;
+}
+.bottom{
+    position: sticky;
+    background-color: rgb(1, 1, 7);
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 5px;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+.icons i{
+    cursor: pointer;
+}
+#progress{
+    width: 80vw;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 175%;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 23px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.songItem img{
+    width:43;
+    height: 45px;
+    margin: 0px 21px;
+    border-radius:10px;
+    
+
+}
+.A{
+    padding-left: 7px;
+}
+.songtime{
+    margin: 0 23px;
+}
+.foot{
+  position:fixed;
+  top: 190px;
+  left: 600px;
+  font-weight: 100;
+  color: #aba6a6;
+}
